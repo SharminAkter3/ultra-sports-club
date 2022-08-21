@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+#title {
+    color: chocolate;
+    /* font-size: x-large; */
+}
