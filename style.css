@@ -8,3 +8,8 @@ body {
     color: chocolate;
     /* font-size: x-large; */
 }
+
+.card-section img {
+    width: auto;
+    height: 220px;
+}
