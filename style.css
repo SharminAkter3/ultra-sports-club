@@ -22,11 +22,19 @@ body {
 }
 
 .football-pic {
-    height: 220px;
+    height: 200px;
     width: 320px;
 }
 
 .card-section img {
     width: auto;
     height: 220px;
+}
+
+.selected-body {
+    background-color: black;
+    margin-top: 2vh;
+    margin-right: 15vh;
+    margin-left: 15vh;
+    height: 50vh;
 }
