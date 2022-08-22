@@ -1,40 +1,51 @@
 body {
-    width: 100%;
-    background-color: rgb(27, 24, 24);
-    color: white;
-    font-size: large;
+    background-color: rgb(25, 24, 24);
 }
 
+header {
+    height: 60vh;
+}
 
-#title {
+header>section>div>img {
+    height: 55vh;
+    margin-top: 2vh;
+    margin-left: 4vh;
+}
 
+header>section>div>h1 {
     font-size: 8vh;
     margin-top: 15vh;
     color: tomato;
-    /* font-size: x-large; */
 }
 
-.saint-germain-logo {
-    height: 140px;
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-bottom: 10px;
+.player {
+    height: 30vh;
 }
 
-.football-pic {
-    height: 200px;
-    width: 320px;
+
+
+.select-player-name {
+    height: 45vh;
+    object-fit: cover;
 }
 
-.card-section img {
-    width: auto;
-    height: 220px;
+.budget-sec {
+    height: 70vh;
+    object-fit: cover;
+    background-color: black;
+    margin-top: 2vh;
+    margin-right: 5vh;
+    margin-left: 5vh;
 }
 
 .selected-body {
     background-color: black;
     margin-top: 2vh;
-    margin-right: 15vh;
-    margin-left: 15vh;
+    margin-right: 5vh;
+    margin-left: 5vh;
     height: 50vh;
+}
+
+.table {
+    color: white;
 }
