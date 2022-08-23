@@ -3,6 +3,13 @@ const playerArry = [];
 
 function display(player) {
 
+    if (playerArry.length > 5) {
+        if (playerArry.length = 5) {
+            alert('You cannot add 5 more players');
+            return element.disabled = false;
+        }
+    }
+
     const tableBody = document.getElementById('player-table');
     tableBody.innerHTML = "";
 
@@ -16,8 +23,8 @@ function display(player) {
             <th>${name}  </td>
         `;
         tableBody.appendChild(tr);
-    }
 
+    }
 
 }
 

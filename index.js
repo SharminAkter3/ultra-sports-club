@@ -12,8 +12,6 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
 })
 
 
-
-
 document.getElementById('calculate-total').addEventListener('click', function () {
     const perPlayerCostField = document.getElementById('per-player-coast');
     const perPlayerCostString = perPlayerCostField.value;
